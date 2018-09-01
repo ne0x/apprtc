@@ -436,10 +436,10 @@ AppController.prototype.onKeyPress_ = function(event) {
 };
 
 AppController.prototype.pushCallNavigation_ = function(roomId, roomLink) {
-  if (!isChromeApp()) {
-    window.history.pushState({'roomId': roomId, 'roomLink': roomLink}, roomId,
-        roomLink);
-  }
+  // if (!isChromeApp()) {
+  //   window.history.pushState({'roomId': roomId, 'roomLink': roomLink}, roomId,
+  //       roomLink);
+  // }
 };
 
 AppController.prototype.displaySharingInfo_ = function(roomId, roomLink) {
